@@ -7,6 +7,11 @@
 - Use concise, telegraphic style - minimize volume
 - Avoid unnecessary explanations and emojis
 
+## Documentation
+
+- `docs/requirement-*.md` for requirements, specifications, and constraints
+- `docs/task-*.md` for task breakdowns and progress
+
 ## Task Execution Workflow
 
 1. List tasks, files and what you do → **Get approval**
@@ -26,6 +31,7 @@ When user input contains these keywords → **STOP & REQUEST APPROVAL**
 
 - Use **pnpm** for all package management
 - Consult Context7 MCP tools when needed
+- Use `playwright-cli` for every web interaction task insted of "fetch" or "axios"
 
 ## Git Workflow
 
@@ -43,13 +49,17 @@ When user input contains these keywords → **STOP & REQUEST APPROVAL**
 
 ## Reference Skills
 
-For detailed guidelines, the following skills are available and will be loaded automatically when needed:
+For every request:
+
+- Silently evaluate which skill(s) would help most.
+- If clearly relevant, automatically load the matching SKILL.md file(s) into context.
+- Only load what's needed — do not load everything.
 
 | Skill                    | When Used                                             |
 | ------------------------ | ----------------------------------------------------- |
 | `coding-standards`       | Code implementation, refactoring, testing             |
 | `planning`               | Planning phase, requirement gathering, task breakdown |
-| `playwright-cli`         | Playwright command-line usage, fetching               |
+| `playwright-cli`         | Fetching, browsing or debugging by Playwright CLI     |
 | `ui-design`              | UI/UX design, styling, accessibility                  |
 | `nextjs-architecture`    | Next.js App Router projects                           |
 | `hono-htmx-architecture` | Hono + HTMX + Cloudflare Workers projects             |
