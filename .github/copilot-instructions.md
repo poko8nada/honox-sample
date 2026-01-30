@@ -49,6 +49,7 @@ For detailed guidelines, the following skills are available and will be loaded a
 | ------------------------ | ----------------------------------------------------- |
 | `coding-standards`       | Code implementation, refactoring, testing             |
 | `planning`               | Planning phase, requirement gathering, task breakdown |
+| `playwright-cli`         | Playwright command-line usage, fetching               |
 | `ui-design`              | UI/UX design, styling, accessibility                  |
 | `nextjs-architecture`    | Next.js App Router projects                           |
 | `hono-htmx-architecture` | Hono + HTMX + Cloudflare Workers projects             |
