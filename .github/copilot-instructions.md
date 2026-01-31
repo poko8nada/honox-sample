@@ -31,7 +31,6 @@ When user input contains these keywords → **STOP & REQUEST APPROVAL**
 
 - Use **pnpm** for all package management
 - Consult Context7 MCP tools when needed
-- Use `playwright-cli` for every web interaction task insted of "fetch" or "axios"
 
 ## Git Workflow
 
@@ -55,11 +54,9 @@ For every request:
 - If clearly relevant, automatically load the matching SKILL.md file(s) into context.
 - Only load what's needed — do not load everything.
 
-| Skill                    | When Used                                             |
-| ------------------------ | ----------------------------------------------------- |
-| `coding-standards`       | Code implementation, refactoring, testing             |
-| `planning`               | Planning phase, requirement gathering, task breakdown |
-| `playwright-cli`         | Fetching, browsing or debugging by Playwright CLI     |
-| `ui-design`              | UI/UX design, styling, accessibility                  |
-| `nextjs-architecture`    | Next.js App Router projects                           |
-| `hono-htmx-architecture` | Hono + HTMX + Cloudflare Workers projects             |
+| Skill              | When Used                                             |
+| ------------------ | ----------------------------------------------------- |
+| `coding-standards` | Code implementation, refactoring, testing             |
+| `planning`         | Planning phase, requirement gathering, task breakdown |
+| `ui-design`        | UI/UX design, styling, accessibility                  |
+| `playwright-mcp`   | Browser automation, web interaction, Playwright MCP   |
