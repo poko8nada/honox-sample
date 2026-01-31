@@ -13,7 +13,7 @@
 
 ### Task 2: APIルートの作成
 
-- [ ] `app/routes/api/hello.ts` - JSONレスポンスを返すハンドラの実装 **(FR-03)**
+- [x] `app/routes/api/hello.ts` - JSONレスポンスを返すハンドラの実装 **(FR-03)**
 
 **依存関係**: なし
 **成果物**: `/api/hello` でJSONデータが返るエンドポイント
@@ -22,8 +22,8 @@
 
 ### Task 3: Islandsアーキテクチャの応用 ($コンポーネント)
 
-- [ ] `app/routes/posts/$post-like.tsx` - `$` プレフィックスを用いたIslandの作成 **(FR-04)**
-- [ ] `app/routes/posts/[id].tsx` - 作成したIslandをページにインポートして組み込む
+- [x] `app/routes/posts/$post-like.tsx` - `$` プレフィックスを用いたIslandの作成 **(FR-04)**
+- [x] `app/routes/posts/[id].tsx` - 作成したIslandをページにインポートして組み込む
 
 **依存関係**: Task 1
 **成果物**: 投稿詳細ページに「いいね」ボタンが配置され、クライアントサイドで動作する機能
