@@ -21,6 +21,7 @@
 | --------------------- | ------------------------------------------------------------------- |
 | `coding-standards`    | Code implementation, refactoring, testing                           |
 | `context7-mcp`        | Access up-to-date, version-specific official documentation and code |
+| `honox-architecture`  | HonoX development, routing, Islands, component patterns             |
 | `nextjs-architecture` | Next.js App Router projects                                         |
 | `planning`            | Planning phase, requirement gathering, task breakdown               |
 | `playwright-mcp`      | Browser automation, web interaction, Playwright MCP                 |
