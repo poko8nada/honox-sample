@@ -36,8 +36,8 @@
 
 ### Task 4: アセット管理とハイドレーションの最適化
 
-- [ ] `app/routes/_renderer.tsx` - `Script` と `Link` コンポーネントへの移行 **(FR-01)**
-- [ ] ブラウザの開発者ツールで、Islandが含まれないページでJSがロードされていないことを確認
+- [x] `app/routes/_renderer.tsx` - `Script` と `Link` コンポーネントへの移行 **(FR-01)**
+- [x] ブラウザの開発者ツールで、Islandが含まれないページでJSがロードされていないことを確認
 
 **依存関係**: Phase 1 完了
 **完了条件**: `Script` コンポーネントが適切に機能し、不要なJS配信が抑制されていること
@@ -48,13 +48,13 @@
 
 ### 機能確認
 
-- [ ] `/posts/[id]` ページで動的なIDが表示される
-- [ ] `/api/hello` からJSONが返却される
-- [ ] `post-like` Islandがクライアントサイドで動作する
+- [x] `/posts/[id]` ページで動的なIDが表示される
+- [x] `/api/hello` からJSONが返却される
+- [x] `post-like` Islandがクライアントサイドで動作する
 
 ### アーキテクチャ確認
 
-- [ ] `honox/factory` の `createRoute` を使用してハンドラが定義されている
-- [ ] Islandsコンポーネントが `app/islands/` または `$` プレフィックス付きで配置されている
-- [ ] `<title>` や `<meta>` タグがルートコンポーネント内で直接定義（巻き上げ）されている
-- [ ] `app/routes/_renderer.tsx` で `honox/server` の `Script` / `Link` が使用されている
+- [x] `honox/factory` の `createRoute` を使用してハンドラが定義されている
+- [x] Islandsコンポーネントが `app/islands/` または `$` プレフィックス付きで配置されている
+- [x] `<title>` や `<meta>` タグがルートコンポーネント内で直接定義（巻き上げ）されている
+- [x] `app/routes/_renderer.tsx` で `honox/server` の `Script` / `Link` が使用されている
